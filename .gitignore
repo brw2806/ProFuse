@@ -1,0 +1,24 @@
+# Local environments and editor settings
+.venv/
+venv/
+.idea/
+desktop.ini
+
+# Python caches and compiled extensions
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+*.egg
+*.so
+*.o
+
+# Training outputs and generated arrays
+log/
+*.pth
+*.pt
+*.npy
+
+# KITTI data; keep split lists
+/data/KITTI/object/
